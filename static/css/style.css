@@ -9,10 +9,11 @@ body {
 }
 
 @media (max-height: 768px) {
-    #link-list-1{
+    #link-list-1 {
         display: flex !important;
     }
-    #link-list-1>li{
+
+    #link-list-1>li {
         padding: 10px !important;
     }
 }
