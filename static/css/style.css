@@ -16,6 +16,46 @@ body {
     #link-list-1>li {
         padding: 10px !important;
     }
+
+    #link-list-2 {
+        margin-top: 0px !important;
+    }
+
+    #sublist-1 {
+        top: 255px !important;
+    }
+
+    #sublist-2 {
+        top: 295px !important;
+    }
+
+    #sublist-3 {
+        top: 335px !important;
+    }
+
+    #sublist-4 {
+        top: 375px !important;
+    }
+
+    #sublist-5 {
+        top: 415px !important;
+    }
+
+    #sublist-6 {
+        top: 455px !important;
+    }
+
+    #sublist-7 {
+        top: 495px !important;
+    }
+
+    #sublist-8 {
+        top: 435px !important;
+    }
+
+    #sublist-9 {
+        top: 450px !important;
+    }
 }
 
 .navigation-bar {
