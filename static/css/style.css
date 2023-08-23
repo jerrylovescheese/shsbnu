@@ -8,16 +8,13 @@ body {
     margin: 0;
 }
 
-@media (max-height: 820px) {
-    /* #link-list-2 {
+@media (max-height: 768px) {
+    #link-list-2 {
         font-size: 20px !important;
     }
 
     #link-list-2>li {
         line-height: 30px !important;
-    } */
-    #link-list-2{
-        overflow: scroll !important;
     }
 }
 
