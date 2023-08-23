@@ -9,12 +9,11 @@ body {
 }
 
 @media (max-height: 768px) {
-    #link-list-2 {
-        font-size: 20px !important;
+    #link-list-1{
+        display: flex !important;
     }
-
-    #link-list-2>li {
-        line-height: 30px !important;
+    #link-list-1>li{
+        padding: 10px !important;
     }
 }
 
@@ -94,7 +93,7 @@ body {
     line-height: 33px;
     position: absolute;
     left: 150px;
-    top: 375px;
+    top: 365px;
     color: #00000000;
     transition: all 0.2s;
     transition-delay: 0.3s;
