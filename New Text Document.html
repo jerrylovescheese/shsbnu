@@ -1,0 +1,261 @@
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" href="./iconfont library/fontawesome-free-6.1.2-web/css/all.css">
+	<style>
+		/* work by Jerry */
+		body {
+			width: 100%;
+			height: 100%;
+			background-image: url(./Aug\ 21\ 2023\ CSS_画板\ 1.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0;
+		}
+
+		.navigation-bar {
+			width: 100px;
+			height: 100px;
+			background-color: #f7f7f7c1;
+			background-image: url(./资源\ 1.png);
+			background-size: 80px 80px;
+			background-repeat: no-repeat;
+			background-position: 10px 10px;
+			border-radius: 15px;
+			backdrop-filter: blur(12px);
+			position: fixed;
+			top: 30px;
+			left: 30px;
+			transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+			transition-delay: 0.3s;
+			overflow: hidden;
+			word-break: keep-all;
+		}
+
+		.navigation-bar:hover {
+			top: 0;
+			left: 0;
+			width: 360px;
+			height: 100vh;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+			background-position: 40px 40px;
+		}
+
+		#link-list-1 {
+			list-style: none;
+			margin-top: 140px;
+		}
+
+		#link-list-1>li {
+			display: block;
+			width: fit-content;
+			padding: 10px;
+			padding-left: 12px;
+			padding-right: 12px;
+			background-color: #e5e5e592;
+			border: solid 2px #cfcfcf;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-radius: 30px;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-weight: bold;
+		}
+
+		#link-list-2 {
+			list-style: none;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		#link-list-2>li {
+			line-height: 40px;
+			transition: all 0.3s;
+		}
+
+		#link-list-2>li:hover {
+			color: gray;
+		}
+
+		.sublist {
+			font-size: 18px;
+			font-weight: normal;
+			list-style: none;
+			line-height: 33px;
+			position: absolute;
+			left: 150px;
+			top: 375px;
+			color: #00000000;
+			transition: all 0.2s;
+			transition-delay: 0.3s;
+		}
+
+		#sublist-2 {
+			top: 405px;
+		}
+
+		#sublist-3 {
+			top: 445px;
+		}
+
+		#sublist-4 {
+			top: 485px;
+		}
+
+		#sublist-5 {
+			top: 525px;
+		}
+
+		#sublist-6 {
+			top: 565px;
+		}
+
+		#sublist-7 {
+			top: 605px;
+		}
+
+		#sublist-8 {
+			top: 545px;
+		}
+
+		#sublist-9 {
+			top: 560px;
+		}
+
+		#link-list-2-item-2:hover #sublist-1 {
+			color: black;
+		}
+
+		#link-list-2-item-3:hover #sublist-2 {
+			color: black;
+		}
+
+		#link-list-2-item-4:hover #sublist-3 {
+			color: black;
+		}
+
+		#link-list-2-item-5:hover #sublist-4 {
+			color: black;
+		}
+
+		#link-list-2-item-6:hover #sublist-5 {
+			color: black;
+		}
+
+		#link-list-2-item-7:hover #sublist-6 {
+			color: black;
+		}
+
+		#link-list-2-item-8:hover #sublist-7 {
+			color: black;
+		}
+
+		#link-list-2-item-9:hover #sublist-8 {
+			color: black;
+		}
+
+		#link-list-2-item-10:hover #sublist-9 {
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- key color: ##0054a1 -->
+	<div class="navigation-bar">
+		<ul id="link-list-1">
+			<li><i class="fas fa-user"></i>&emsp;学生</li>
+			<li><i class="fas fa-graduation-cap"></i>&emsp;校友</li>
+			<li><i class="fas fa-id-card"></i>&emsp;教职工</li>
+		</ul>
+		<ul id="link-list-2">
+			<li>首页</li>
+			<li id="link-list-2-item-2">关于二附
+				<ul class="sublist" id="sublist-1">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>学校概况</li>
+					<li>学校沿革</li>
+					<li>学校文化</li>
+					<li>领导关怀</li>
+					<li>现任领导</li>
+					<li>历任领导</li>
+					<li>组织架构</li>
+					<li>教师队伍</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-3">学校新闻
+				<ul class="sublist" id="sublist-2">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>二附动态</li>
+					<li>媒体报道</li>
+					<li>通知公告</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-4">党建引领
+				<ul class="sublist" id="sublist-3">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>党建动态</li>
+					<li>党员风采</li>
+					<li>群团组织</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-5">课程教学
+				<ul class="sublist" id="sublist-4">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>部门动态</li>
+					<li>实验课程</li>
+					<li>体艺社团</li>
+					<li>科技教育</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-6">德育之窗
+				<ul class="sublist" id="sublist-5">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>德育动态</li>
+					<li>德育理念</li>
+					<li>德育骨干</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-7">学生天地
+				<ul class="sublist" id="sublist-6">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>成长之旅</li>
+					<li>青春二附（共青团）</li>
+					<li>社团天地</li>
+					<li>获奖专栏</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-8">教育科研
+				<ul class="sublist" id="sublist-7">
+					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
+					<li>科研动态</li>
+					<li>科研成果</li>
+					<li>科研资源</li>
+				</ul>
+			</li>
+			<li id="link-list-2-item-9">对外交流
+				<ul class="sublist" id="sublist-8">
+					<li>交流动态</li>
+					<li>项目概览</li>
+					<li>资源索引</li><i class="fas fa-chevron-up" style="line-height: 33px;"></i>
+				</ul>
+			</li>
+			<li>招生专栏</li>
+			<li id="link-list-2-item-10">服务与资源
+				<ul class="sublist" id="sublist-9">
+					<li>服务动态</li>
+					<li>财务报销</li>
+					<li>二附图集</li>
+					<li>形象识别系统</li>
+					<li>高考高招</li><i class="fas fa-chevron-up" style="line-height: 33px;"></i>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>

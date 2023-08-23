@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>选课</title>
+	</head>
+	<body>
+		<div class="box-1"></div>
+	</body>
+</html>
