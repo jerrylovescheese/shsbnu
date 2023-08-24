@@ -82,6 +82,20 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) and (pointer: none) {
+    .navigation-bar:hover {
+        top: 0 !important;
+        left: 0 !important;
+        width: 360px !important;
+        height: 100% !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        background-position: 40px 40px !important;
+    }
+}
+
 .navigation-bar {
     width: 100px;
     height: 100px;
@@ -107,7 +121,7 @@ body {
     top: 0;
     left: 0;
     width: 360px;
-    height: 100vh;
+    height: 100%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 15px;
