@@ -27,7 +27,7 @@ a {
     .navigation-bar:focus-within {
         top: 0 !important;
         left: 0 !important;
-        width: 360px !important;
+        width: 320px !important;
         height: 100% !important;
         border-top-left-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
@@ -125,7 +125,7 @@ a {
 .navigation-bar:focus-within {
     top: 0;
     left: 0;
-    width: 360px;
+    width: 320px;
     height: 100%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -167,7 +167,11 @@ a {
     transition: all 0.3s;
 }
 
-#link-list-2>li:hover {
+#link-list-2>li>a {
+    transition: all 0.3s;
+}
+
+#link-list-2>li>a:hover {
     color: gray;
 }
 
@@ -176,12 +180,21 @@ a {
     font-weight: normal;
     list-style: none;
     line-height: 33px;
+    padding-right: 20px;
+    padding-left: 30px;
     position: absolute;
     left: 150px;
     top: 365px;
     color: #00000000;
     transition: all 0.2s;
     transition-delay: 0.3s;
+    display: none;
+}
+
+.sublist>li>a {
+    transition: all 0.2s;
+    transition-delay: 0.3s;
+    color: #00000000;
 }
 
 #sublist-2 {
@@ -218,36 +231,81 @@ a {
 
 #link-list-2-item-2:hover #sublist-1 {
     color: black;
+    display: block;
+}
+
+#link-list-2-item-2:hover #sublist-1>li>a {
+    color: black;
 }
 
 #link-list-2-item-3:hover #sublist-2 {
+    color: black;
+    display: block;
+}
+
+#link-list-2-item-3:hover #sublist-2>li>a {
     color: black;
 }
 
 #link-list-2-item-4:hover #sublist-3 {
     color: black;
+    display: block;
+}
+
+#link-list-2-item-4:hover #sublist-3>li>a {
+    color: black;
 }
 
 #link-list-2-item-5:hover #sublist-4 {
+    color: black;
+    display: block;
+}
+
+#link-list-2-item-5:hover #sublist-4>li>a {
     color: black;
 }
 
 #link-list-2-item-6:hover #sublist-5 {
     color: black;
+    display: block;
+}
+
+#link-list-2-item-6:hover #sublist-5>li>a {
+    color: black;
 }
 
 #link-list-2-item-7:hover #sublist-6 {
+    color: black;
+    display: block;
+}
+
+#link-list-2-item-7:hover #sublist-6>li>a {
     color: black;
 }
 
 #link-list-2-item-8:hover #sublist-7 {
     color: black;
+    display: block;
+}
+
+#link-list-2-item-8:hover #sublist-7>li>a {
+    color: black;
 }
 
 #link-list-2-item-9:hover #sublist-8 {
     color: black;
+    display: block;
+}
+
+#link-list-2-item-9:hover #sublist-8>li>a {
+    color: black;
 }
 
 #link-list-2-item-10:hover #sublist-9 {
+    color: black;
+    display: block;
+}
+
+#link-list-2-item-10:hover #sublist-9>li>a {
     color: black;
 }
