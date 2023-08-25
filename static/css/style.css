@@ -85,19 +85,47 @@ a {
     #sublist-9 {
         top: 420px !important;
     }
-}
 
-@media only screen and (max-width: 768px) and (pointer: none) {
-    .navigation-bar:hover {
-        top: 0 !important;
-        left: 0 !important;
-        width: 360px !important;
-        height: 100% !important;
-        border-top-left-radius: 0 !important;
-        border-bottom-left-radius: 0 !important;
-        border-top-right-radius: 15px !important;
-        border-bottom-right-radius: 15px !important;
-        background-position: 40px 40px !important;
+    .sublist>li>a {
+        transition: all 0.2s;
+        transition-delay: 0.3s;
+        color: #00000000;
+    }
+
+    #link-list-2-item-2:hover #sublist-1>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-3:hover #sublist-2>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-4:hover #sublist-3>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-5:hover #sublist-4>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-6:hover #sublist-5>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-7:hover #sublist-6>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-8:hover #sublist-7>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-9:hover #sublist-8>li>a {
+        color: black;
+    }
+
+    #link-list-2-item-10:hover #sublist-9>li>a {
+        color: black;
     }
 }
 
