@@ -6,18 +6,82 @@
 	<!-- note: mind you that this meta tag is essential to proper scaling on different devices, normally it's better -->
 	<link rel="stylesheet" href="./static/iconfont library/fontawesome-free-6.1.2-web/css/all.min.css">
 	<link rel="stylesheet" href="./static/css/style.css">
+	<style>
+		.pool {
+			margin-left: 150px;
+			margin-right: 30px;
+		}
+
+		/* .disclaimer {
+			width: fit-content;
+			height: fit-content;
+			padding: 10px;
+			border-radius: 15px;
+			background-color: #ffffffce;
+			backdrop-filter: blur(12px);
+			-webkit-ackdrop-filter: blur(12px);
+			-moz-ackdrop-filter: blur(12px);
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			position: sticky;
+			top: 30px;
+			left: 150px;
+		} */
+
+		.slide {
+			width: auto;
+			aspect-ratio: 64/19;
+			border-radius: 15px;
+			position: sticky;
+			z-index: -2;
+			top: 30px;
+			margin-top: 20px;
+			background-size: contain;
+		}
+
+		#slide-1 {
+			background-image: url(./static/img/f71917f035b32800fb58297a46e72cda.jpg);
+		}
+
+		#slide-2 {
+			margin-top: 30px;
+			background-image: url(./static/img/6455c9c6a939a370b71152cac6fa2a00.jpg);
+		}
+
+		#slide-3 {
+			background-image: url(./static/img/54fdad68b5104a08b01a57a4b60f9267.jpg);
+		}
+
+		@media (max-width: 425px) {
+			.pool {
+				margin-left: 30px !important;
+			}
+
+			.disclaimer {
+				display: none;
+			}
+
+			.slide {
+				top: 130px;
+			}
+
+			#slide-2 {
+				margin-top: 130px !important;
+			}
+		}
+	</style>
 </head>
 
 <body ontouchstart>
 	<!-- key color: ##0054a1 -->
 	<div class="navigation-bar" tabindex="1">
 		<ul id="link-list-1">
-			<li><i class="fas fa-user"></i>&emsp;学生</li>
-			<li><i class="fas fa-graduation-cap"></i>&emsp;校友</li>
-			<li><i class="fas fa-id-card"></i>&emsp;教职工</li>
+			<li><a href="https://kcpt.shsbnu.net/"><i class="fas fa-user"></i>&emsp;学生</a></li>
+			<li><a href="http://3w.shsbnu.net/cms/832/xyzj/index.shtml"><i
+						class="fas fa-graduation-cap"></i>&emsp;校友</a></li>
+			<li><a href="http://newcas.shsbnu.net/"><i class="fas fa-id-card"></i>&emsp;教职工</a></li>
 		</ul>
 		<ul id="link-list-2">
-			<li>首页</li>
+			<li><a href="./index.html">首页</a></li>
 			<li id="link-list-2-item-2"><a href="https://www.shsbnu.net/skin/cmsinfo/list/1/1">关于二附</a>
 				<ul class="sublist" id="sublist-1">
 					<i class="fas fa-chevron-down" style="line-height: 33px;"></i>
@@ -102,64 +166,16 @@
 			</li>
 		</ul>
 	</div>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur soluta beatae voluptate rem
-		corrupti tempore vitae deserunt, qui facilis ipsa. Modi hic vitae maiores adipisci rerum, ab corrupti omnis.</p>
+	<!-- <div class="disclaimer"><b>免责声明：</b>&emsp;此为描摹样本。原网站为www.shsbnu.net。如有侵权，请联系删除。</div> -->
+	<div class="pool">
+		<div class="slideshow">
+			<div class="slide" id="slide-1"></div>
+			<div class="slide" id="slide-2"></div>
+			<div class="slide" id="slide-3"></div>
+		</div>
+		<p style="text-align: center; font-weight: bold; font-size: 30px;">通知公告</p>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>
