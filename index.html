@@ -40,16 +40,36 @@
 		}
 
 		#slide-1 {
-			background-image: url(./static/img/f71917f035b32800fb58297a46e72cda.jpg);
+			background-image: linear-gradient(315deg, rgba(0, 201, 177, 0.452), rgba(255, 255, 255, 0.736));
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			overflow-y: scroll;
+			overflow-x: hidden;
 		}
 
 		#slide-2 {
 			margin-top: 30px;
-			background-image: url(./static/img/6455c9c6a939a370b71152cac6fa2a00.jpg);
+			background-image: url(./static/img/f71917f035b32800fb58297a46e72cda.jpg);
 		}
 
 		#slide-3 {
+			background-image: url(./static/img/6455c9c6a939a370b71152cac6fa2a00.jpg);
+		}
+
+		#slide-4 {
 			background-image: url(./static/img/54fdad68b5104a08b01a57a4b60f9267.jpg);
+		}
+
+		.slide-prompt-head {
+			display: block;
+			font-weight: bold;
+			font-size: 30px;
+			padding: 20px;
+		}
+
+		.slide-prompt-body {
+			display: block;
+			font-size: 20px;
+			padding-left: 20px;
 		}
 
 		@media (max-width: 425px) {
@@ -86,7 +106,7 @@
 
 		.notification-box {
 			width: auto;
-			height: 140px;
+			height: 110px;
 			border-radius: 15px;
 			border: solid 1px rgba(128, 128, 128, 0.209);
 			display: flex;
@@ -96,12 +116,12 @@
 		}
 
 		.notification {
-			width: 370px;
-			height: 100px;
+			width: 270px;
+			height: 70px;
 			aspect-ratio: 37/10;
 			border-radius: 10px;
 			margin-right: 20px;
-			box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.658);
+			box-shadow: 0px 5px 10px #0053a1b7;
 			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 			padding: 20px;
 			transition: all 0.2s;
@@ -109,17 +129,17 @@
 
 		.notification:hover {
 			transform: translateY(-5px);
-			box-shadow: 0px 10px 19px rgba(128, 128, 128, 0.958);
+			box-shadow: 0px 10px 19px #003d76;
 		}
 
 		.notification-head {
 			font-weight: 500;
-			font-size: 30px;
+			font-size: 20px;
 			color: #0053a1c4;
 		}
 
 		#notification-body {
-			font-size: 30px;
+			font-size: 25px;
 			display: block;
 			margin-top: 10px;
 			font-weight: lighter;
@@ -234,11 +254,18 @@
 	<!-- <div class="disclaimer"><b>免责声明：</b>&emsp;此为描摹样本。原网站为www.shsbnu.net。如有侵权，请联系删除。</div> -->
 	<div class="pool">
 		<div class="slideshow">
+			<div class="slide" id="slide-1">
+				<span class="slide-prompt-head">这是什么</span>
+				<span
+					class="slide-prompt-body">这是我重绘的北师大二附中学校官网首页。此网页上所有的内容著作权归原作者所有，我只改写了样式。<br>https://github.com/jerrylovescheese/shsbnu.git</span>
+				<span class="slide-prompt-head">告诉我你的想法</span>
+				<span class="slide-prompt-body"><a href="mailto:jerrylovesapple@icloud.com">jerrylovesapple@icloud.com</a></span>
+			</div>
 			<a href="https://mp.weixin.qq.com/s/6y3Bfny5lgR3NdE7wvAGtQ">
-				<div class="slide" id="slide-1"></div>
+				<div class="slide" id="slide-2"></div>
 			</a>
-			<div class="slide" id="slide-2"></div>
 			<div class="slide" id="slide-3"></div>
+			<div class="slide" id="slide-4"></div>
 			<a href="https://www.shsbnu.net/skin/cmsinfo/list/1/20"><button class="more"><i
 						class="fas fa-circle-plus"></i>&emsp;查看更多</button></a>
 		</div>
@@ -267,6 +294,8 @@
 				</div>
 			</a>
 		</div>
+		<p style="text-align: center; font-weight: bold; font-size: 30px; color: #0054a1;">二附一心</p>
+
 	</div>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<p style="
