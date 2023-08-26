@@ -153,11 +153,15 @@ a {
 
     #link-list-1>li {
         background-color: #e5e5e5 !important;
+        z-index: 4;
     }
 
     #link-list-2 {
         background-color: rgba(247, 247, 247);
-        box-shadow: 0 0 1em 2.5em rgba(247, 247, 247);
+        box-shadow: 0 0 1em 1em rgba(247, 247, 247);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        -moz-backdrop-filter: blur(12px);
     }
 }
 
@@ -180,7 +184,7 @@ a {
     transition-delay: 0.3s;
     overflow: hidden;
     word-break: keep-all;
-    z-index: 6;
+    z-index: 10;
 }
 
 .navigation-bar:focus-within {
