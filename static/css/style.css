@@ -158,6 +158,8 @@ a {
     #link-list-2 {
         background: #f7f7f7c1;
         backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        -moz-backdrop-filter: blur(12px);
     }
 }
 
