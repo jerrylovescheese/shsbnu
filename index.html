@@ -161,6 +161,87 @@
 			margin-top: 20px;
 			font-weight: 700;
 		}
+
+		.school-list {
+			list-style: none;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-size: 26px;
+			font-weight: bold;
+			padding: 0;
+		}
+
+		.school-list>li {
+			display: block;
+			padding: 15px;
+			border: solid 2px gray;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			transition: all 0.2s;
+			position: relative;
+			color: white;
+		}
+
+		.school-list>li:hover {
+			background-color: #fff !important;
+		}
+
+		#school-list-1 {
+			background-color: rgba(0, 84, 161);
+			border-color: #0054a1;
+		}
+
+		#school-list-1:hover {
+			color: rgba(0, 84, 161);
+		}
+
+		#school-list-2 {
+			background-color: rgba(0, 84, 161, 0.9);
+			border: solid 2px rgba(0, 84, 161, 0.9);
+		}
+
+		#school-list-2:hover {
+			color: rgba(0, 84, 161, 0.9);
+		}
+
+		#school-list-3 {
+			background-color: rgba(0, 84, 161, 0.8);
+			border: solid 2px rgba(0, 84, 161, 0.8);
+		}
+
+		#school-list-3:hover {
+			color: rgba(0, 84, 161, 0.8);
+		}
+
+		#school-list-4 {
+			background-color: rgba(0, 84, 161, 0.7);
+			border: solid 2px rgba(0, 84, 161, 0.7);
+		}
+
+		#school-list-4:hover {
+			color: rgba(0, 84, 161, 0.7);
+		}
+
+		#school-list-5 {
+			background-color: rgba(0, 84, 161, 0.6);
+			border: solid 2px rgba(0, 84, 161, 0.6);
+		}
+
+		#school-list-5:hover {
+			color: rgba(0, 84, 161, 0.6);
+		}
+
+		#school-list-6 {
+			background-color: rgba(0, 84, 161, 0.5);
+			border: solid 2px rgba(0, 84, 161, 0.5);
+		}
+
+		#school-list-6:hover {
+			color: rgba(0, 84, 161, 0.5);
+		}
+
+		#my-page:hover{
+			text-decoration: underline;
+		}
 	</style>
 </head>
 
@@ -306,15 +387,22 @@
 			</a>
 		</div>
 		<p style="text-align: center; font-weight: bold; font-size: 30px; color: #0054a1;">二附一心</p>
-
+		<ul class="school-list">
+			<li id="school-list-1">高中部&emsp;<span><i id="go-1" class="fas fa-chevron-right"></i></span></li>
+			<li id="school-list-2">初中部&emsp;<span><i id="go-2" class="fas fa-chevron-right"></i></span></li>
+			<li id="school-list-3">国际部 海淀学校&emsp;<span><i id="go-3" class="fas fa-chevron-right"></i></span></li>
+			<li id="school-list-4">西城实验学校&emsp;<span><i id="go-4" class="fas fa-chevron-right"></i></span></li>
+			<li id="school-list-5">未来科学城学校&emsp;<span><i id="go-5" class="fas fa-chevron-right"></i></span></li>
+			<li id="school-list-6">北师大昌平附校&emsp;<span><i id="go-6" class="fas fa-chevron-right"></i></span></li>
+			</li>
 	</div>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<p style="
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 15px;
 	font-weight: bolder;
-	color: rgb(124, 124, 124);
-	text-align: center;">版权所有 © 2019-2023 aluminum.studio 江源工作室</p><br><br>
+	text-align: center;">版权所有 © 2019-2023 aluminum.studio <a id="my-page" href="https://jerrylovescheese.github.io/web/">江源工作室</a></p>
+	<br><br>
 </body>
 
 </html>
